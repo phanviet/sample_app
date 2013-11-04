@@ -13,6 +13,7 @@ group :test do
   gem 'selenium-webdriver', '2.35.1'
   gem 'capybara', '2.1.0'
   gem 'spork', '~> 1.0rc'
+  gem 'factory_girl_rails', '4.2.1'
 end
 
 gem 'sass-rails', '~> 3.2.3'
@@ -24,7 +25,7 @@ gem 'jbuilder', '1.0.2'
 gem 'bootstrap-sass', '2.3.2.0'
 gem 'bcrypt-ruby', '~> 3.0.0'
 
-# Gems used only for assets and not required
+# Gems used only for assets assetsnd not required
 # in production environments by default.
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
